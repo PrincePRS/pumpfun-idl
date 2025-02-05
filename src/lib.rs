@@ -1,0 +1,1 @@
+pub const PUMPFUN_IDL: &str = include_str!("../pumpfun_idl.json");
