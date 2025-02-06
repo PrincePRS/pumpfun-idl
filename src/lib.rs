@@ -1,1 +1,3 @@
-pub const PUMPFUN_IDL: &str = include_str!("../pumpfun_idl.json");
+anchor_gen::generate_cpi_crate!("pumpfun_idl.json");
+
+declare_id!("6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P");
